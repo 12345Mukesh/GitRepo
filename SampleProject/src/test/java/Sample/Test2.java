@@ -307,7 +307,7 @@ WebElement fifth=driver.findElement(By.xpath("//div[@data-title='Test Batting Ra
 	System.out.println(screenshot);
 	
 	Screenshot screen= new AShot().shootingStrategy(ShootingStrategies.viewportPasting(1000)).takeScreenshot(driver);
-	ImageIO.write(screen.getImage(), "PNG", new File("C:\\Users\\Mukesh\\git\\repository3\\SampleProject" + screenshot + "'.png"));
+	ImageIO.write(screen.getImage(), "PNG", new File("../SampleProject" + screenshot + "'.png"));
 	
 	
 	
